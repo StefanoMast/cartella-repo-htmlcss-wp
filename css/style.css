@@ -82,3 +82,14 @@ li {
     float: left;
     width: 25%;
 }
+
+.second-banner {
+    width: 50%;
+    height: 50%;
+}
+
+.second-image {
+    float: right;
+    width: 25%;
+}
+
