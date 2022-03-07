@@ -9,13 +9,26 @@
 .container {
     width: 80%;
     margin: 0 auto;
+}
 
-    /* background-color: aqua;
-    height: 300px;*/
-} 
+.logo-img {
+    height: 60px;
+    width: auto;
+    border-right: 1px solid rgb(201, 200, 200);
+    padding: 5px;
+    margin-bottom: 10px;
+}
 
-/* Layover */
-/* Con pseudoelemento */
+nav {
+    margin-bottom: 15px;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+    font-size: .8em;
+}
+
 .with-layover::before {
     content: "";
     position: absolute;
