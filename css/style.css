@@ -78,11 +78,7 @@ li {
     color: white;
 }
 
-/* OVERFLOW */
-/* Prova overflow */
-.text-container {
-    width: 50%;
-    height: 200px;
-    background-color: bisque;
-    overflow: hidden;
+.first-image {
+    float: left;
+    width: 25%;
 }
