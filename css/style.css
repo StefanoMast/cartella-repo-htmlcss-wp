@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 /* COMMON */
 
 .container {
@@ -27,6 +30,14 @@ li {
     display: inline-block;
     padding: 5px;
     font-size: .8em;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.title {
+    margin-bottom: 20px;
 }
 
 .with-layover::before {
@@ -78,18 +89,44 @@ li {
     color: white;
 }
 
-.first-image {
-    float: left;
-    width: 25%;
+.container {
+    display: block;
 }
 
-.second-banner {
-    width: 50%;
-    height: 50%;
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.first-image {
+    position: relative;
+    float: left;
+    width: 25%;
+    margin: 1px;
+    
 }
 
 .second-image {
+    position: relative;
     float: right;
     width: 25%;
+    margin: 1px;
+    
+}
+
+.second-banner {
+    position: relative;
+    width: 48%;
+    float: left;
+    margin: 1px;
+    
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, .6);
 }
 
